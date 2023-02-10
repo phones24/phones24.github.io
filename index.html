@@ -17,6 +17,23 @@
         padding: 1rem;
       }
 
+      header {
+        display: flex;
+        gap: 3rem;
+      }
+
+      header img {
+        width: 15vw;
+        object-fit: contain;
+        margin-left: auto;
+        border-radius: 0.5rem;
+        align-self: flex-start;
+      }
+
+      header h1 {
+        margin-top: 0;
+      }
+
       h2 {
         margin-top: 3rem;
         padding-bottom: 0.5rem;
@@ -62,9 +79,14 @@
     </style>
   </head>
   <body>
-    <h1>Yury Vasiliev</h1>
+    <header>
+      <div>
+        <h1>Yury Vasiliev</h1>
 
-    <p>E-mail: <a href="mailto:drobowski@gmail.com">drobowski@gmail.com</a></p>
+        <p>E-mail: <a href="mailto:drobowski@gmail.com">drobowski@gmail.com</a></p>
+      </div>
+      <img src="river.jpg" alt="Yury Vasiliev" />
+    </header>
 
     <h2>Summary</h2>
     <p>Senior developer, architect, and team leader with over 25 years of experience.
